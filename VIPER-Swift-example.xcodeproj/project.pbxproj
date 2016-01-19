@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		84C1D1CA1C4D11FE003F97BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D1C91C4D11FE003F97BF /* AppDelegate.swift */; };
 		84C1D1CC1C4D11FE003F97BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D1CB1C4D11FE003F97BF /* ViewController.swift */; };
-		84C1D1CF1C4D11FE003F97BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D1CD1C4D11FE003F97BF /* Main.storyboard */; };
 		84C1D1D11C4D11FE003F97BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D1D01C4D11FE003F97BF /* Assets.xcassets */; };
 		84C1D1D41C4D11FE003F97BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C1D1D21C4D11FE003F97BF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		84C1D1C61C4D11FE003F97BF /* VIPER-Swift-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER-Swift-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C1D1C91C4D11FE003F97BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C1D1CB1C4D11FE003F97BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84C1D1CE1C4D11FE003F97BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C1D1D01C4D11FE003F97BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C1D1D31C4D11FE003F97BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C1D1D51C4D11FE003F97BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				84C1D1C91C4D11FE003F97BF /* AppDelegate.swift */,
 				84C1D1CB1C4D11FE003F97BF /* ViewController.swift */,
-				84C1D1CD1C4D11FE003F97BF /* Main.storyboard */,
 				84C1D1D01C4D11FE003F97BF /* Assets.xcassets */,
 				84C1D1D21C4D11FE003F97BF /* LaunchScreen.storyboard */,
 				84C1D1D51C4D11FE003F97BF /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				84C1D1D41C4D11FE003F97BF /* LaunchScreen.storyboard in Resources */,
 				84C1D1D11C4D11FE003F97BF /* Assets.xcassets in Resources */,
-				84C1D1CF1C4D11FE003F97BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84C1D1CD1C4D11FE003F97BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84C1D1CE1C4D11FE003F97BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84C1D1D21C4D11FE003F97BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -198,7 +186,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -236,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -284,6 +272,7 @@
 				84C1D1DA1C4D11FE003F97BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
