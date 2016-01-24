@@ -12,15 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var rootViewController: ViewController?
+    var rootWireframe: RootWireframe?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
-        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window.rootViewController = rootViewController
-        window.makeKeyAndVisible()
+        guard let rootWireframe = self.rootWireframe else  {
+            NSLog("Wrong config")
+            return true
+        }
 
+        let window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        rootWireframe.installRootViewControllerIntoWindow(window)
         self.window = window
 
         return true
